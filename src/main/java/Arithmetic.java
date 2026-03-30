@@ -8,5 +8,17 @@ public class Arithmetic {
 
         boolean answer = a == b;
         System.out.println(answer);
+
+
+        boolean c = false;
+        boolean d = true;
+
+        boolean and = c && d;
+        boolean or = c || d;
+        boolean not = !c;
+
+        System.out.println(and);
+        System.out.println(or);
+        System.out.println(not);
     }
 }
