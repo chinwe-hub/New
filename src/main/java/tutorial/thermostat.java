@@ -1,9 +1,11 @@
+package tutorial;
+
 import java.util.Scanner;
 
 public class thermostat {
     public static void main(String[] args) {
 
-//        Write a program that sets the thermostat mode based on the following conditions:
+//        Write a program that sets the tutorial.thermostat mode based on the following conditions:
 //        If the temperature is less than 18°C:
 //        Set mode to "HEAT" if the time of day is "morning" or "evening", else "ECO"
 //        If the temperature is between 18°C and 25°C (inclusive):

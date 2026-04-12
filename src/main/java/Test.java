@@ -1,13 +1,28 @@
+import lesson.FurtherLesson;
+import lesson.Lesson;
+
+
 public class Test {
     public static void main(String[] args) {
 
-        // instantiation
+//        // instantiation
         Lesson lesson = new Lesson();
 //        int c = lesson.add(2, 3);
 //        System.out.println(c);
         System.out.println(lesson.add(2, 3));
 
 
+        FurtherLesson furtherLesson = new FurtherLesson();
+
+        int classicAnswer = furtherLesson.classic(1, 3, 5);
+        System.out.println("classicAnswer: " + classicAnswer);
+
+        int classyAnswer = furtherLesson.classy(2, 4, 6);
+        System.out.println("classyAnswer: " + classyAnswer);
+
+        int finalAnswer = classicAnswer * classyAnswer;
+
+        System.out.println("finalAnswer: " + finalAnswer);
 
 
 
