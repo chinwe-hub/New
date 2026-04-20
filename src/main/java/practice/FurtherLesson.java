@@ -1,11 +1,11 @@
-package lesson;
+package practice;
 
 public class FurtherLesson {
     // Create a method with any name of your choice that adds the first two parameters
     // and multiplies the third parameter all of datatype int and returns int;
     // use odd numbers (any odd number of your choice) as arguments to test it
 
-    public int addition = 20;
+    public int addition;
     public String door = "50";
     public String bankAccount = "account";
 
