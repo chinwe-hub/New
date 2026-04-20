@@ -1,9 +1,14 @@
-package lesson;
+package practice;
 
 public class Lesson {
 
     public int add(int a, int b) {
-        return a + b;
+        int age = 12;
+        int height = 50;
+        int d = a;
+        int e = b;
+        int c = d + e;
+        return c;
     }
 
 
